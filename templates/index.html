@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJI Mini 3 Pro</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="{{ url_for('static', filename='images/dji-1-logo-black-and-white.png') }}" alt="DJI Mini 3 Pro Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </nav>
+      <div class="buy-button">
+        <a href="https://go.shopple.co/spv0sb" class="cta-button" target="_blank">Buy Now</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="container">
+      <div class="home-content">
+        <div class="home-text">
+          <h1>DJI Mini 3 Pro</h1>
+          <h2>Unleash Your Creativity, Elevate Your Adventures.</h2>
+          <p>Introducing the DJI Mini 3 Pro, a pocket-sized powerhouse designed for creators on the move. Elevate your adventures with regulation-friendly, hassle-free flights and capture breathtaking moments effortlessly.</p>
+          <a href="https://go.shopple.co/spv0sb" class="home-cta-button" target="_blank">Discover Limitless Perspectives</a>
+        </div>
+        <div class="home-image">
+          <img src="{{ url_for('static', filename='images/dji mini 3 pro hero.jpg') }}">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About</h2>
+      <div class="about-content">
+      <p>The DJI Mini 3 Pro is a game-changer in the world of drones, combining cutting-edge technology with portability to enable creators to effortlessly capture stunning aerial footage. Emphasizing superior camera quality, extended flight time, and intelligent features, the DJI Mini 3 Pro sets a new benchmark for compact drones.</p>
+    </div>
+    <div class="about-image">
+      <img src="{{ url_for('static', filename='images/about.jpg') }}" alt="DJI Mini 3 about Image">
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <ul>
+        <li><strong>Weight:</strong> Less than 249 g</li>
+        <li><strong>Dimensions:</strong> Folded: 145×90×62 mm, Unfolded: 171×245×62 mm, Unfolded (with propellers): 251×362×70 mm</li>
+        <li><strong>Max Speed:</strong> 16 m/s (S Mode), 10 m/s (N Mode), 6 m/s (C Mode)</li>
+        <li><strong>Max Flight Time:</strong> 34 mins (with Intelligent Flight Battery), 47 mins (with Intelligent Flight Battery Plus)</li>
+        <li><strong>Max Flight Distance:</strong> 18 km (with Intelligent Flight Battery), 25 km (with Intelligent Flight Battery Plus)</li>
+        <li><strong>Camera Sensor:</strong> 1/1.3-inch CMOS, Effective Pixels: 48 MP</li>
+        <li><strong>Video Resolution:</strong> 4K at 60fps, with options to use 2.7K or 1080p resolutions</li>
+        <li><strong>Obstacle Sensing:</strong> Tri-Directional Obstacle Sensing</li>
+        <li><strong>Global Navigation Satellite System (GNSS):</strong> GPS + Galileo + BeiDou</li>
+      </ul>
+    </div>
+    <div class="features-image">
+      <img src="{{ url_for('static', filename='images/features (1).jpg') }}" alt="Feature Image">
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <h2>Reviews</h2>
+      <div class="review_1">
+        <h3>TechRadar</h3>
+        <p>DJI Mini 3 Pro as a serious upgrade for the Mini series and the best compact drone you can buy right now. It has a larger sensor, built-in obstacle avoidance, and intelligent flight modes.</p>
+      </div>
+      <div class="review_2">
+        <h3>Trusted</h3>
+        <p>DJI Mini 3 Pro has a better camera than any other sub-250g drone, as well as obstacle-sensing tech, long battery life, and responsive, easy-to-use flight controls.</p>
+      </div>
+      <div class="review_3">
+        <h3>PCMag</h3>
+        <p>DJI Mini 3 Pro’s Quad Bayer camera that snaps pleasing photos and records stabilized 4K60 footage. Its video toolkit makes you rethink what a tiny drone can do.</p>
+      </div>
+      <div class="review_4">
+        <h3>Popular Photography</h3>
+        <p>DJI Mini 3 Pro’s endurance, versatility, and image quality a strong step up from the Mini 2.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <div class="container">
+      <p>make by Irfan create using html, css and flask framework</p>
+    </div>
+  </footer>
+</body>
+</html>
