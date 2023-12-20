@@ -1,7 +1,13 @@
 {
-  "rewrites": [
-    { "source": "/app.py", "destination": "/app.py" },
-    { "source": "/static/(.*)", "destination": "/static/$1" },
-    { "source": "/(.*)", "destination": "/app.py" }
+  "version": 2,
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/app.py"
+    }
   ]
 }
